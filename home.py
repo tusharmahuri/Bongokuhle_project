@@ -17,7 +17,7 @@ col1, col2, col3 = st.columns(3)
 
 # Section 1: Crop Recommendation System
 with col1:
-    st.image("crop_rec_project.jpg", use_column_width=True)  # Replace with your image file or URL
+    st.image("crop_reco_project_image.png", use_column_width=True)  # Replace with your image file or URL
     st.subheader("Crop Recommendation System")
     st.write("""
     A system that suggests the best crops to grow based on weather, soil, and other parameters.
@@ -33,7 +33,7 @@ with col1:
 
 # Section 2: Potato Disease Classifier with Eradication and Awareness
 with col2:
-    st.image("potato_prediction.jpg", use_column_width=True)  # Replace with your image file or URL
+    st.image("potato_disease_image.png", use_column_width=True)  # Replace with your image file or URL
     st.subheader("Potato Disease Classifier")
     st.write("""
     Classify potato diseases, learn about them, and get recommendations for eradication.
@@ -49,7 +49,7 @@ with col2:
 
 # Section 3: Chatbot for Farmer
 with col3:
-    st.image("kishan_mitra.jpg", use_column_width=True)  # Replace with your image file or URL
+    st.image("Farmer_chatbot.png", use_column_width=True)  # Replace with your image file or URL
     st.subheader("Chatbot for Farmer")
     st.write("""
     Chat with an AI assistant to get farming-related advice, tips, and guidance.
